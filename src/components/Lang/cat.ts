@@ -1,9 +1,6 @@
 /**
- * Spanish translation
- * @author Delt <delt@k19.org>
- * @author Gabuh
- * @author Nyarthur
- * @author Olivo28
+ * Traducció a Català
+ * @author Yacchy
  */
 
 import {
@@ -17,52 +14,52 @@ const anime_airing: Config = {
     UNIT_SINGULAR: `anime`,
     UNIT_PLURAL: `animes`,
     UNIT_SHORT: `Anime`,
-    SUBUNIT_SINGULAR: `episodio`,
-    SUBUNIT_PLURAL: `episodios`,
+    SUBUNIT_SINGULAR: `episodi`,
+    SUBUNIT_PLURAL: `episodis`,
     SUBUNIT_SHORT: `ep.`,
     // e.g. Ep. 1 airs in 3 days
-    SUBUNIT_VERB_FUTURE: `se transmitirá`,
+    SUBUNIT_VERB_FUTURE: `s'emetrà`,
     // e.g. Ep. 2 aired 2 hours ago
-    SUBUNIT_VERB_PAST: `se transmitió`,
+    SUBUNIT_VERB_PAST: `s'ha emès`,
 };
 
 const anime_bluray: Config = {
-    UNIT_SINGULAR: `serie`,
-    UNIT_PLURAL: `series`,
-    UNIT_SHORT: `Serie`,
-    SUBUNIT_SINGULAR: `volumen`,
-    SUBUNIT_PLURAL: `volúmenes`,
+    UNIT_SINGULAR: `sèrie`,
+    UNIT_PLURAL: `sèries`,
+    UNIT_SHORT: `Sèrie`,
+    SUBUNIT_SINGULAR: `volum`,
+    SUBUNIT_PLURAL: `volums`,
     SUBUNIT_SHORT: `Vol.`,
     // e.g. Vol. 1 drops in 3 days
-    SUBUNIT_VERB_FUTURE: `se estrenará`,
+    SUBUNIT_VERB_FUTURE: `s'estrenarà`,
     // e.g. Vol. 2 published 2 hours ago
-    SUBUNIT_VERB_PAST: `se estrenó`,
+    SUBUNIT_VERB_PAST: `es va estrenar`,
 };
 
 const manga_chapter: Config = {
     UNIT_SINGULAR: `manga`,
-    UNIT_PLURAL: `mangas`,
+    UNIT_PLURAL: `mangues`,
     UNIT_SHORT: `Manga`,
-    SUBUNIT_SINGULAR: `capítulo`,
-    SUBUNIT_PLURAL: `capítulos`,
+    SUBUNIT_SINGULAR: `capítol`,
+    SUBUNIT_PLURAL: `capítols`,
     SUBUNIT_SHORT: `Cap.`,
     // e.g. Ch. 1 drops in 3 days
-    SUBUNIT_VERB_FUTURE: `se estrenará`,
+    SUBUNIT_VERB_FUTURE: `s'estrenarà`,
     // e.g. Ch. 2 published 2 hours ago
-    SUBUNIT_VERB_PAST: `se estrenó`,
+    SUBUNIT_VERB_PAST: `s'ha estrenat`,
 };
 
 const manga_volume: Config = {
     UNIT_SINGULAR: `manga`,
-    UNIT_PLURAL: `mangas`,
+    UNIT_PLURAL: `mangues`,
     UNIT_SHORT: `Manga`,
-    SUBUNIT_SINGULAR: `tomo`,
-    SUBUNIT_PLURAL: `tomos`,
-    SUBUNIT_SHORT: `Tomo`,
+    SUBUNIT_SINGULAR: `tom`,
+    SUBUNIT_PLURAL: `toms`,
+    SUBUNIT_SHORT: `Tom`,
     // e.g. Vol. 1 drops in 3 days
-    SUBUNIT_VERB_FUTURE: `se publicará`,
+    SUBUNIT_VERB_FUTURE: `es publicarà`,
     // e.g. Vol. 2 published 2 hours ago
-    SUBUNIT_VERB_PAST: `se publicó`,
+    SUBUNIT_VERB_PAST: `s'ha publicat`,
 };
 
 const strings: Strings = {
@@ -70,14 +67,14 @@ const strings: Strings = {
      * States without any projects
      */
     // Empty state
-    ALL_COMPLETE: `¡No hay proyectos en curso!`,
+    ALL_COMPLETE: `Nohi ha projectes actius actualment, torna en uns mesos :)`,
     // Error state
-    CONNECTION_ERROR: `Error de conexión`,
+    CONNECTION_ERROR: `Error de conexió`,
 
     /**
      * Configuration Page
      */
-    CONFIG_HEADER: `Configuración`,
+    CONFIG_HEADER: `Configuració`,
     // Website section
     WEBSITE_SETTINGS_HEADER: `Parámetros del sitio`,
     APP_URL: `La URL de tu aplicación`,
