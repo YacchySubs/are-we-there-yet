@@ -149,7 +149,7 @@ const strings: Strings = {
 
 import es from 'javascript-time-ago/locale/ca';
 const lang: Language = {
-    locale: ca,
+    locale: cat,
     strings: strings,
 };
 
