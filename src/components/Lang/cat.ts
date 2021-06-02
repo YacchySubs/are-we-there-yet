@@ -1,6 +1,6 @@
 /**
  * Traducció a Català
- * @author Yacchy
+ * @author Yacchy (yacchysubs@gmail.com)
  */
 
 import {
@@ -67,7 +67,7 @@ const strings: Strings = {
      * States without any projects
      */
     // Empty state
-    ALL_COMPLETE: `Nohi ha projectes actius actualment, torna en uns mesos :)`,
+    ALL_COMPLETE: `No hi ha projectes actius actualment, torna un altre dia :)`,
     // Error state
     CONNECTION_ERROR: `Error de conexió`,
 
@@ -76,42 +76,42 @@ const strings: Strings = {
      */
     CONFIG_HEADER: `Configuració`,
     // Website section
-    WEBSITE_SETTINGS_HEADER: `Parámetros del sitio`,
-    APP_URL: `La URL de tu aplicación`,
-    LINK_PAGE: `Ir a la página`,
-    PAGE_BGCOLOR: `Color principal del fondo del sitio`,
-    NO_COLOR: `Ignonar el color de fondo`,
-    RECOMMENDED_BGCOLOR: `Color de fondo recomendado`,
-    OVERRIDE_BGCOLOR: `Ignorar recomendación`,
+    WEBSITE_SETTINGS_HEADER: `Paràmetres del lloc web`,
+    APP_URL: `La URL de la teva aplicació`,
+    LINK_PAGE: `Anar a la pàgina`,
+    PAGE_BGCOLOR: `Color principal del fons del lloc web`,
+    NO_COLOR: `Ignonar el color de fons`,
+    RECOMMENDED_BGCOLOR: `Color de fons recomanat`,
+    OVERRIDE_BGCOLOR: `Ignorar recomanació`,
     // Theme section
     THEME_HEADER: `Tema de color`,
-    THEME_LIGHT: `Claro`,
-    THEME_DARK: `Oscuro`,
+    THEME_LIGHT: `Clar`,
+    THEME_DARK: `Fosc`,
     // Size section
-    SIZE_HEADER: `Elección de tamaño`,
-    SIZE_SMALL: `Compacto (no recomendado)`,
+    SIZE_HEADER: `Elección de mida`,
+    SIZE_SMALL: `Compacte (no recomanat)`,
     SIZE_NORMAL: `Normal`,
     // Accent section
-    ACCENT_HEADER: `Color de énfasis`,
-    ACCENT_RED: `Rojo`,
-    ACCENT_YELLOW: `Amarillo`,
-    ACCENT_GREEN: `Verde`,
-    ACCENT_BLUE: `Azul`,
-    ACCENT_INDIGO: `Índigo`,
-    ACCENT_PURPLE: `Morado`,
+    ACCENT_HEADER: `Color d'èmfasi`,
+    ACCENT_RED: `Vermell`,
+    ACCENT_YELLOW: `Groc`,
+    ACCENT_GREEN: `Verd`,
+    ACCENT_BLUE: `Blau`,
+    ACCENT_INDIGO: `Indi`,
+    ACCENT_PURPLE: `Morat`,
     ACCENT_PINK: `Rosa`,
-    ACCENT_NONE: `Ninguno`,
+    ACCENT_NONE: `Cap`,
     // Language section
     LANGUAGE_HEADER: `Idioma`,
     // Description in Wordpress embed code
-    EMBED_HEADER: `Código incrustable para Wordpress`,
-    EMBED_DESCRIPTION: `Redimensionar el iframe tras la carga`,
-    EMBED_SHOW: `Mostrar código incrustable`,
-    EMBED_HIDE: `Ocultar código incrustable`,
+    EMBED_HEADER: `Codi incrustable a Wordpress`,
+    EMBED_DESCRIPTION: `Redimensionar l'iframe després de la càrrega`,
+    EMBED_SHOW: `Mostrar codi incrustable`,
+    EMBED_HIDE: `Ocultar codi incrustable`,
     // Example
-    ALL_POSITIONS: `Todos los puestos del staff`,
-    EXAMPLE_ERROR: `Este ejemplo de error`,
-    EXAMPLE_STATUS: `Este es un ejemplo de mensaje de estado opcional`,
+    ALL_POSITIONS: `Totes les posicions de l'staff`,
+    EXAMPLE_ERROR: `Aquest exemple d'error`,
+    EXAMPLE_STATUS: `Això és un exemple de msisatge d'estat opcional`,
 
     /**
      * Unit (e.g. Show)
@@ -119,15 +119,15 @@ const strings: Strings = {
      * {1} = number of remaining units
      * {2} = relative time
      */
-    UNIT_JOINT_WITH: `En colaboración con {0}`,
-    UNIT_SHOW_LESS: `Mostrar menos`,
+    UNIT_JOINT_WITH: `En colaboració amb {0}`,
+    UNIT_SHOW_LESS: `Veure'n menys`,
     // Plural version if needed, fallback to UNIT_SHOW_LESS otherwise
     UNIT_SHOW_LESS_PLURAL: undefined,
-    UNIT_SHOW_REMAINDER_SINGULAR: `Mostrar el %SUBUNIT_SINGULAR% restante...`,
+    UNIT_SHOW_REMAINDER_SINGULAR: `Mostrar el %SUBUNIT_SINGULAR% restant...`,
     // e.g. Show 2 more episodes...
-    UNIT_SHOW_REMAINDER_PLURAL: `Mostrar los {1} %SUBUNIT_PLURAL% restantes...`,
+    UNIT_SHOW_REMAINDER_PLURAL: `Mostrar els {1} %SUBUNIT_PLURAL% restants...`,
     // e.g. Updated 5 hours ago
-    UNIT_UPDATED: `Actualizado {2}`,
+    UNIT_UPDATED: `Actualitzat {2}`,
 
     /**
      * Subunit (e.g. Episode)
