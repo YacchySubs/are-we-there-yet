@@ -140,16 +140,16 @@ const strings: Strings = {
     // e.g. Ep. 1 aired 4 days ago
     SUBUNIT_WAS_PUBLISHED: `El %SUBUNIT_SHORT% {0} %SUBUNIT_VERB_PAST% {1}`,
     // shown when all positions are marked complete
-    SUBUNIT_TO_RELEASE: `%SUBUNIT_SHORT% {0} está listo para ser publicado`,
+    SUBUNIT_TO_RELEASE: `L'%SUBUNIT_SHORT% {0} està llest per publicar-se`,
     // shown when there are unfinished positions
-    SUBUNIT_IN_PROGRESS: `Al %SUBUNIT_SHORT% {0} le falta: {2}`,
+    SUBUNIT_IN_PROGRESS: `A l'%SUBUNIT_SHORT% {0} li queda: {2}`,
     // shown when all positions are marked incomplete after publication
     SUBUNIT_NO_PROGRESS: `(aún no hay progreso)`,
 };
 
-import es from 'javascript-time-ago/locale/cat';
+import es from 'javascript-time-ago/locale/ca';
 const lang: Language = {
-    locale: cat,
+    locale: ca,
     strings: strings,
 };
 
