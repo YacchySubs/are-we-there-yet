@@ -6,9 +6,10 @@ import he from '$components/Lang/he';
 import pl from '$components/Lang/pl';
 import fi from '$components/Lang/fi';
 import es from '$components/Lang/es';
+import cat from '$components/Lang/cat';
 import TimeAgo from 'javascript-time-ago';
 
-export const languages = [en, id, ru, he, pl, fi, es];
+export const languages = [en, id, ru, he, pl, fi, es, cat];
 export const languageNames = languages.map(
     (language) => language.anime_airing.locale.locale
 );
