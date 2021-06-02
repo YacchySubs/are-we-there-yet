@@ -3,9 +3,9 @@
 
     export async function load({ page }) {
         let theme = 'light';
-        let accent = 'green';
+        let accent = 'none';
         let size = 'normal';
-        let lang = 'en';
+        let lang = 'ca';
 
         const validThemes = ['light', 'dark'];
         const validAccents = [
@@ -66,9 +66,9 @@
     import { writable } from 'svelte/store';
 
     export let theme = 'light';
-    export let accent = 'green';
+    export let accent = 'none';
     export let size = 'normal';
-    export let lang = 'en';
+    export let lang = 'ca';
 
     setContext('lang', writable(lang));
 
