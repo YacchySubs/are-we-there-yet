@@ -12,9 +12,9 @@
     import { writable } from 'svelte/store';
 
     let theme = 'light';
-    let accent = 'green';
+    let accent = 'none';
     let size = 'normal';
-    let lang = writable('en');
+    let lang = writable('ca');
     let domain = '';
 
     let expanded = false;
