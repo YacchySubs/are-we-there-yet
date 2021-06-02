@@ -147,9 +147,9 @@ const strings: Strings = {
     SUBUNIT_NO_PROGRESS: `(aún no hay progreso)`,
 };
 
-import es from 'javascript-time-ago/locale/ca';
+import ca from 'javascript-time-ago/locale/ca';
 const lang: Language = {
-    locale: cat,
+    locale: ca,
     strings: strings,
 };
 
