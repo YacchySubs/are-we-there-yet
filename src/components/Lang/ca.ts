@@ -88,7 +88,7 @@ const strings: Strings = {
     THEME_LIGHT: `Clar`,
     THEME_DARK: `Fosc`,
     // Size section
-    SIZE_HEADER: `Elección de mida`,
+    SIZE_HEADER: `Elecció de tamany`,
     SIZE_SMALL: `Compacte (no recomanat)`,
     SIZE_NORMAL: `Normal`,
     // Accent section
@@ -110,8 +110,8 @@ const strings: Strings = {
     EMBED_HIDE: `Ocultar codi incrustable`,
     // Example
     ALL_POSITIONS: `Totes les posicions de l'staff`,
-    EXAMPLE_ERROR: `Aquest exemple d'error`,
-    EXAMPLE_STATUS: `Això és un exemple de msisatge d'estat opcional`,
+    EXAMPLE_ERROR: `Això és un exemple d'error`,
+    EXAMPLE_STATUS: `Això és un exemple de misssatge d'estat opcional`,
 
     /**
      * Unit (e.g. Show)
@@ -136,15 +136,15 @@ const strings: Strings = {
      * {2} = list of positions
      */
     // e.g. Ep. 1 airs in 5 days
-    SUBUNIT_NOT_PUBLISHED: `%SUBUNIT_SHORT% {0} %SUBUNIT_VERB_FUTURE% {1}`,
+    SUBUNIT_NOT_PUBLISHED: `L'%SUBUNIT_SHORT% {0} %SUBUNIT_VERB_FUTURE% {1}`,
     // e.g. Ep. 1 aired 4 days ago
-    SUBUNIT_WAS_PUBLISHED: `El %SUBUNIT_SHORT% {0} %SUBUNIT_VERB_PAST% {1}`,
+    SUBUNIT_WAS_PUBLISHED: `L'%SUBUNIT_SHORT% {0} %SUBUNIT_VERB_PAST% {1}`,
     // shown when all positions are marked complete
     SUBUNIT_TO_RELEASE: `L'%SUBUNIT_SHORT% {0} està llest per publicar-se`,
     // shown when there are unfinished positions
     SUBUNIT_IN_PROGRESS: `A l'%SUBUNIT_SHORT% {0} li queda: {2}`,
     // shown when all positions are marked incomplete after publication
-    SUBUNIT_NO_PROGRESS: `(aún no hay progreso)`,
+    SUBUNIT_NO_PROGRESS: `(està per començar)`,
 };
 
 import ca from 'javascript-time-ago/locale/ca';
