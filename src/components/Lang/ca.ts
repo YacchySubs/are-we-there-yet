@@ -20,7 +20,7 @@ const anime_airing: Config = {
     // e.g. Ep. 1 airs in 3 days
     SUBUNIT_VERB_FUTURE: `s'emetrà`,
     // e.g. Ep. 2 aired 2 hours ago
-    SUBUNIT_VERB_PAST: `s'ha emès`,
+    SUBUNIT_VERB_PAST: `es va emetre`,
 };
 
 const anime_bluray: Config = {
@@ -44,9 +44,9 @@ const manga_chapter: Config = {
     SUBUNIT_PLURAL: `capítols`,
     SUBUNIT_SHORT: `Cap.`,
     // e.g. Ch. 1 drops in 3 days
-    SUBUNIT_VERB_FUTURE: `s'estrenarà`,
+    SUBUNIT_VERB_FUTURE: `es publicarà`,
     // e.g. Ch. 2 published 2 hours ago
-    SUBUNIT_VERB_PAST: `s'ha estrenat`,
+    SUBUNIT_VERB_PAST: `es va publicar`,
 };
 
 const manga_volume: Config = {
@@ -59,7 +59,7 @@ const manga_volume: Config = {
     // e.g. Vol. 1 drops in 3 days
     SUBUNIT_VERB_FUTURE: `es publicarà`,
     // e.g. Vol. 2 published 2 hours ago
-    SUBUNIT_VERB_PAST: `s'ha publicat`,
+    SUBUNIT_VERB_PAST: `es va publicar`,
 };
 
 const strings: Strings = {
